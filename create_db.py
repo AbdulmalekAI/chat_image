@@ -6,7 +6,7 @@ from langchain_community.embeddings.ollama import OllamaEmbeddings
 embedding=OllamaEmbeddings(model="nomic-embed-text")
 # # %%
 from langchain_chroma import Chroma
-persist_directory = "/home/abdulmalek-alsalmi/Desktop/SA/the_project/chroma"
+persist_directory = "/home/abdalmi/Desktop/SA/the_project/chroma"
 
 # %%
 words=[

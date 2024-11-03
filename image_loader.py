@@ -5,12 +5,10 @@
 from PIL import Image
 import webbrowser
 import os
-# %%
-print(os.path.join("/home/abdalmi/Desktop/SA/the_project/images/","1.jpg"))
 
-# %% 
+ 
 def load_image_from_folder(image_name):
-    folder_path = "/home/abdualmi/Desktop/SA/the_project/images/"
+    folder_path = "/home/abdalmi/Desktop/SA/the_project/images/"
     # Ensure to try both .png and .jpg
     image_path_options = [
         os.path.join(folder_path, image_name + ".png"),
@@ -29,7 +27,4 @@ def load_image_from_folder(image_name):
     print(f"Image {image_name} not found in specified formats.")
     return None
 
-# %%
-image_folder_path = "/home/abdulmalek-alsalmi/Desktop/SA/the_project/images/جزر.png"
-Image.open(image_folder_path)
-# %%
+
